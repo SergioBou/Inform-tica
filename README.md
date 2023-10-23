@@ -1,3 +1,3 @@
-https://sergiobou.github.io/Inform-tica/
+https://sergiobou.github.io/Informatica/
 
 # Informatica
