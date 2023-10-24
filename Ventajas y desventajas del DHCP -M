@@ -5,3 +5,17 @@ Ventajas y desventajas del DHCP
 </title>
 </head>
 </html>
+<body> 
+  <p><B> Ventajas de los servidores DHCP
+
+Ventajas: 
+         - Únicamente se configura el servidor que entregara de un rango de direcciones una IP a cada cliente.
+         - Facilidad de configuración. 
+         - Las direcciones son controladas por el servidor, lo cual logra su facilitación al momento de dar seguimiento y supervisar.
+         - En una red de bastantes usuarios, el servidor DHCP es necesario para asignación de IP de forma automática.
+</p>
+<p><B> Desventajas de los servidores DHCP
+
+Desventajas:
+         - En caso de que se requiera un DNS, es necesario configurarlo manualmente para indicar las direcciones IP correspondientes.
+         - En caso de que el servidor DHCP falla, todas las maquinas clientes renovaran su IP al no obtener respuesta alguna, lo cual provocara que toda la red se detenga.
