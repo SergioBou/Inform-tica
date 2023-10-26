@@ -1,62 +1,33 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funciones del Firewall</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        p {
-            text-align: justify;
-        }
-    </style>
+  <link rel="stylesheet" href="style.css">
+<tilte>
+<b> Ventajas y desventajas del DHCP
+</title>
 </head>
-<body>
-    <h1>Funciones del Firewall</h1>
 
-    <p>
-        Un firewall es una parte esencial de la seguridad de redes. Tiene varias funciones fundamentales para proteger una red de amenazas y ataques cibernéticos. Algunas de las funciones clave del firewall son las siguientes:
-    </p>
+<body> 
+  <p><B></B> Ventajas de los servidores DHCP
 
-    <h2>1. Filtrado de tráfico</h2>
-    <p>
-        El firewall examina todo el tráfico de red que entra y sale de la red, y decide si se permite o se bloquea según las reglas de seguridad configuradas. Esto ayuda a evitar que tráfico no deseado o peligroso ingrese a la red.
-    </p>
+Ventajas: 
+         1- Únicamente se configura el servidor que entregara de un rango de direcciones una IP a cada cliente.
+         2- Facilidad de configuración. 
+         3- Las direcciones son controladas por el servidor, lo cual logra su facilitación al momento de dar seguimiento y supervisar.
+         4- En una red de bastantes usuarios, el servidor DHCP es necesario para asignación de IP de forma automática.
+         5- Se entregan todos los parámetros básicos de TCP-IP
+    
+<IMG SRC="Images/vyd.jpg"
+  </p>
+    <p></p>
+    <p></p>
+    <p></p>
+<p><B></B> Desventajas de los servidores DHCP</B> </p>
 
-    <h2>2. Protección contra amenazas conocidas</h2>
-    <p>
-        Los firewalls pueden utilizar listas de firmas y bases de datos de amenazas conocidas para identificar y bloquear malware, virus y otros tipos de ataques conocidos. Esto ayuda a prevenir infecciones y daños en la red.
-    </p>
+Desventajas:
+         1- En caso de que se requiera un DNS, es necesario configurarlo manualmente para indicar las direcciones IP correspondientes.
+         2- En caso de que el servidor DHCP falla, todas las maquinas clientes renovaran su IP al no obtener respuesta alguna, lo cual provocara que toda la red se detenga.
+<IMG SRC="Images/server dhcp.jpg">
+  
 
-    <h2>3. Control de acceso</h2>
-    <p>
-        Un firewall permite configurar políticas de control de acceso, lo que significa que se pueden definir quién tiene permiso para acceder a recursos específicos en la red y quién no. Esto es fundamental para mantener la privacidad y la seguridad de los datos.
-    </p>
-
-    <h2>4. Traducción de direcciones de red (NAT)</h2>
-    <p>
-        El firewall puede realizar NAT, lo que permite que múltiples dispositivos en una red privada compartan una sola dirección IP pública. Esto oculta la topología interna de la red y proporciona una capa adicional de seguridad.
-    </p>
-
-    <h2>5. Registro y auditoría</h2>
-    <p>
-        Los firewalls pueden llevar un registro de las actividades de red, lo que facilita la auditoría y el seguimiento de posibles incidentes de seguridad. Los registros son valiosos para identificar intrusiones y evaluar la seguridad de la red.
-    </p>
-
-    <h2>6. Prevención de ataques de denegación de servicio (DoS)</h2>
-    <p>
-        Los firewalls pueden ayudar a mitigar los ataques de denegación de servicio (DoS) limitando la cantidad de tráfico malicioso que ingresa a la red, lo que evita la saturación de recursos y el bloqueo del acceso legítimo.
-    </p>
-
-    <img src="https://academy.avast.com/hs-fs/hubfs/New_Avast_Academy/what_is_a_firewall_and_do_you_need_one_academy_refresh/Firewall-01.png?width=1320&height=600&name=Firewall-01.png" style="display: block; margin: 0 auto; max-width: 100%;">
-
-    <p>
-        En resumen, el firewall es una herramienta crucial para proteger una red contra amenazas cibernéticas y garantizar la seguridad y la integridad de los datos. Es importante configurar y mantener un firewall adecuadamente para garantizar su eficacia.
-    </p>
 </body>
 </html>
