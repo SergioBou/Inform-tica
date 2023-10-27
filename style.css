@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#ccebf1;
+  background-color: #ccebf1;
 }
 
 li {
@@ -19,7 +19,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color:#6bafc7;
+  background-color: #6bafc7;
 }
 
 li.dropdown {
@@ -29,7 +29,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#6bafc7;
+  background-color: #6bafc7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -43,7 +43,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color:#edffff;}
+.dropdown-content a:hover {background-color: #edffff;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -52,7 +52,7 @@ li.dropdown {
 
 body {
   font-family: Arial, sans-serif;
-  background-color:#edffff ;
+  background-color: #edffff;
   margin: 0;
   padding: 0;
 }
@@ -64,17 +64,17 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color:#3d98bd;
+  color: #3d98bd;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  color:#3d98bd;
+  color: #3d98bd;
 }
 
 a {
-  color:#3d98bd;
+  color: #3d98bd;
   text-decoration: none;
 }
 
@@ -85,14 +85,14 @@ a:hover {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color:#a8c896;
-  color:#efe2bf;
+  background-color: #a8c896;
+  color: #efe2bf;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .button:hover {
-  background-color:#f5a489;
+  background-color: #f5a489;
 }
 
 ul {
@@ -113,8 +113,8 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-  background-color:#8ee3ef;
-  color:#a9fcff;
+  background-color: #8ee3ef;
+  color: #a9fcff;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
