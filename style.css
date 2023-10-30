@@ -8,6 +8,7 @@ ul {
 
 li {
   float: left;
+  color: #3d98bd;
 }
 
 li a, .dropbtn {
