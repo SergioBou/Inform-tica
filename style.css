@@ -108,7 +108,7 @@ input[type="submit"] {
 }
 
  table {
-            width: 80%;
+            
            
             margin: 20px auto;
             background-color: #fff;
@@ -116,17 +116,15 @@ input[type="submit"] {
         }
 
  td {
-            width: 80%;
-           
-            margin: 20px auto;
+            
+      
             background-color: #fff;
             text-color: #3d98bd
         }
 
  tr {
-            width: 80%;
-           
-            margin: 20px auto;
+              
+         
             background-color: #fff;
             text-color: #3d98bd
         }
