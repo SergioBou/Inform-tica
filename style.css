@@ -114,13 +114,14 @@ input[type="submit"] {
  table {
      font-family: sans-serif;       
      color: #3d98bd
-       
+     border-color: #3d98bd
+     border: 1px solid
  }
 
  td {
     font-family: sans-serif;
     color: #3d98bd
-       
+    text-align: center
  }
 
  tr {
